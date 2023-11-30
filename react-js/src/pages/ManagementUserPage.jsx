@@ -20,9 +20,13 @@ const headers = ["ID", "Nombre", "Plan","Tipo", "Estado", "Editar","Eliminar"]
 
 
 const roles = [
-    { name: "User", value: "5" },
-    { name: "Admin", value: "1" }
+    { name: "Admin", value: "1" },
+    { name: "Coordinador", value: "2" },
+    { name: "Staff", value: "3" },
+    { name: "Distribuidor", value: "4" },
+    { name: "Usuario", value: "5" }
 ]
+
 
 const paquetes = [
     { name: "Chibcha Plata", value: "1" },
